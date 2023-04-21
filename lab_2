@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+    int n = 50;
+    int i;
+    int s;
+    cin >> i;
+    s = (i / n) * n;
+    i -= s;
+    
+    cout << n - i;
+
+    return 0;
+}
